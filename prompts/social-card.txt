@@ -1,9 +1,13 @@
 Use case: ads-marketing
-Asset type: GitHub repository social preview card for the Another World Omarchy theme.
-Input image: Arrival 4K wallpaper, used as the background and visual reference.
-Primary request: Create a polished landscape social card from the supplied artwork. Preserve the scene: a black angular sports car arriving outside a cyan-lit underground laboratory during a dark blue thunderstorm. Retain the cinematic polygonal art, vehicle, entrance, wet pavement and atmospheric lighting. Adapt framing only as necessary for a wide social preview.
-Layout: Use the open dark sky in the upper-left for a strong, highly readable typographic block. Keep the car and laboratory entrance visible below and to the right. Leave at least 7 percent safe margins around all text, including enough vertical margin for a very slight final crop to 1200 by 630 pixels.
-Text, exactly: "ANOTHER WORLD" as the large main title, broken across two lines if needed. Below it, in much smaller widely spaced uppercase letters: "OMARCHY 4 THEME".
-Typography: Refined bold geometric sans serif, clean and sharp, pale blue-white title; muted cyan subtitle. Professional restrained editorial typography, not a game logo imitation. Strong contrast against the midnight-blue sky. A subtle dark gradient behind the text is acceptable if needed for readability.
-Color palette: Midnight navy, blue-black, cold cyan, pale ivory. Let the original artwork provide the visual interest.
-Constraints: One edge-to-edge artwork. Only the two specified text strings. No extra slogans, URLs, logos, icons, badges, borders or watermark. No desktop interface mockup. Preserve the original image's scene and art direction.
+Asset type: GitHub repository social preview card, exactly 1280 by 640 pixels, aspect ratio 2:1.
+Input image 1: The current Another World social card. Edit target: preserve its Arrival scene, art direction, colors, car, laboratory entrance and storm lighting, but correct the typography size and placement.
+Input image 2: GitHub repository open graph template. Layout reference ONLY: its red lines delimit an inner safe area approximately x=80 to 1200 and y=80 to 560 in a 1280 by 640 canvas. Do not reproduce any template text, GitHub branding, red lines, pink shading or white background.
+Primary request: Redesign the title block so every letter is comfortably inside the template's safe area. The old title is too close to the top and left edges. Make the typography smaller and move it visibly inward. Keep the illustrated scene edge-to-edge.
+Exact layout: On the 1280 by 640 canvas, place the entire text block inside x=140 to 740 and y=120 to 335. The visible top of the first title line should be around y=125; the left edge of all three text lines should be x=140. Main title on two lines, line 1 ANOTHER and line 2 WORLD, around 76 pixels in height per line with balanced tight leading. Beneath it place the subtitle OMARCHY 4 THEME, around 21 pixels tall, ending no lower than y=335. All visible glyphs must be at least 120 pixels from the top or left image edges; absolutely no text outside the specified text box. Leave at least 100 pixels of clear margin from every canvas edge for all typography.
+Typography: Bold geometric sans serif main title, pale blue-white. Smaller widely spaced uppercase cyan subtitle. Crisp, clean, restrained. No typographic distortions. Main title must not dominate more than half the canvas width. Preserve enough open dark sky around the block.
+Scene: The same dark navy polygonal storm scene with black wedge-shaped sports car in the lower middle and cyan-lit laboratory doorway at right. Keep the vehicle and doorway clear of text, visually prominent and within the central safe area when possible. Maintain the wet pavement reflections and subtle lightning.
+Text exactly, with these line breaks:
+ANOTHER
+WORLD
+OMARCHY 4 THEME
+Constraints: Only those three lines of text. No added logos, badges, URLs, border, guides or watermark. No GitHub logo or template contents in the final artwork. Change the typography placement and scale while keeping the background image's recognizable composition and cinematic lighting.

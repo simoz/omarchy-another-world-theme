@@ -1,0 +1,9 @@
+Use case: ads-marketing
+Asset type: GitHub repository social preview card for the Another World Omarchy theme.
+Input image: Arrival 4K wallpaper, used as the background and visual reference.
+Primary request: Create a polished landscape social card from the supplied artwork. Preserve the scene: a black angular sports car arriving outside a cyan-lit underground laboratory during a dark blue thunderstorm. Retain the cinematic polygonal art, vehicle, entrance, wet pavement and atmospheric lighting. Adapt framing only as necessary for a wide social preview.
+Layout: Use the open dark sky in the upper-left for a strong, highly readable typographic block. Keep the car and laboratory entrance visible below and to the right. Leave at least 7 percent safe margins around all text, including enough vertical margin for a very slight final crop to 1200 by 630 pixels.
+Text, exactly: "ANOTHER WORLD" as the large main title, broken across two lines if needed. Below it, in much smaller widely spaced uppercase letters: "OMARCHY 4 THEME".
+Typography: Refined bold geometric sans serif, clean and sharp, pale blue-white title; muted cyan subtitle. Professional restrained editorial typography, not a game logo imitation. Strong contrast against the midnight-blue sky. A subtle dark gradient behind the text is acceptable if needed for readability.
+Color palette: Midnight navy, blue-black, cold cyan, pale ivory. Let the original artwork provide the visual interest.
+Constraints: One edge-to-edge artwork. Only the two specified text strings. No extra slogans, URLs, logos, icons, badges, borders or watermark. No desktop interface mockup. Preserve the original image's scene and art direction.

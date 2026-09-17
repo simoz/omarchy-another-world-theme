@@ -13,7 +13,7 @@ Five wallpapers, all native 3840 × 2160. Click a preview to open the full-resol
 | [![Arrival](docs/previews/00-arrival-4k.jpg)](backgrounds/00-arrival-4k.png)<br>Arrival | [![The Laboratory](docs/previews/laboratory-4k.jpg)](backgrounds/laboratory-4k.png)<br>The Laboratory | [![Alien Landscape](docs/previews/alien-landscape-4k.jpg)](backgrounds/alien-landscape-4k.png)<br>Alien Landscape |
 | [![Underground Escape](docs/previews/underground-escape-4k.jpg)](backgrounds/underground-escape-4k.png)<br>Underground Escape | [![Alien City at Twilight](docs/previews/alien-city-4k.jpg)](backgrounds/alien-city-4k.png)<br>Alien City at Twilight | |
 
-Arrival is the theme's main artwork and the first wallpaper in its sorted collection. Earlier versions remain available in [backgrounds/](backgrounds/).
+Arrival is the theme's main artwork and the first wallpaper in its sorted collection. The installed collection contains only these five 4K wallpapers.
 
 [Complete scene prompts and generation settings](prompts/README.md) are included.
 
@@ -74,6 +74,6 @@ Palette syntax, text contrast and image dimensions have been checked locally. Th
 
 Artwork created with OpenAI image generation. The five 4K wallpapers are native **3840 × 2160**, with no post-generation upscaling. Gallery previews are reduced copies.
 
-The [social card](social-card.jpg) uses Arrival with the theme title, sized at 1200 × 630 and under 1 MB. Its [complete prompt](prompts/social-card.txt) is included.
+The [social card](social-card.jpg) uses Arrival with the theme title, sized at 1280 × 640 and under 1 MB. Its [complete prompt](prompts/social-card.txt) is included.
 
 An unofficial fan tribute to Éric Chahi and Delphine Software. Another World and its characters belong to their respective rights holders. This project is not affiliated with or endorsed by the original creators.

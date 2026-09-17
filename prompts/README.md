@@ -23,4 +23,4 @@ The command makes paid API requests. Existing outputs are not overwritten. Gener
 
 ## Social card
 
-[Social card](../social-card.jpg): Arrival artwork with the theme title, 1200 × 630 JPEG, 173,675 bytes (under 1 MB). Generated through the Images edits API using `gpt-image-2`, then resized and compressed locally. The [complete prompt](social-card.txt) and [generation/export parameters](social-card-manifest.json) are preserved.
+[Social card](../social-card.jpg): Arrival artwork with the theme title, 1280 × 640 JPEG, 176,077 bytes (under 1 MB). Revised using the supplied GitHub template to keep all typography within its safe area. Generated through the Images edits API using `gpt-image-2`, then compressed locally without resizing or cropping. The [complete prompt](social-card.txt) and [generation/export parameters](social-card-manifest.json) are preserved. The previous prompt remains in [social-card-v1.txt](social-card-v1.txt).

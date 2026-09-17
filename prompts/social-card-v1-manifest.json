@@ -1,0 +1,17 @@
+{
+  "endpoint": "/v1/images/edits",
+  "model": "gpt-image-2",
+  "input_image": "backgrounds/00-arrival-4k.png",
+  "prompt_file": "prompts/social-card.txt",
+  "prompt_augmentation": false,
+  "requested_size": "1536x800",
+  "quality": "high",
+  "api_output_format": "png",
+  "final_file": "social-card.jpg",
+  "final_size": "1200x630",
+  "final_format": "jpeg",
+  "jpeg_quality": 92,
+  "final_bytes": 173675,
+  "sha256": "82b25e53270b5bb58db31c4d5a647414e42511473d920c82e5f21d0c78526157",
+  "postprocessing": "ImageMagick: resize to cover, center crop, strip metadata, JPEG 4:4:4 quality 92"
+}

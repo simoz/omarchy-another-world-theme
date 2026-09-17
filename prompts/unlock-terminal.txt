@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: compact isolated emblem for the Another World Omarchy theme boot and disk-unlock screen.
+Primary request: A small retrofuturistic laboratory computer terminal inspired by the cinematic polygonal look of Another World (1991). A chunky angular midnight-blue CRT monitor on a compact geometric console base, viewed almost front-on with a slight three-quarter angle. Screen glowing phosphor green, with one simple angular particle-orbit symbol and a tiny block cursor, no readable text. A few restrained teal indicator lights and broad simplified keyboard shapes. Strong clear silhouette, carefully faceted geometry and minimal detail that remains readable at 300 pixels tall.
+Composition: Single isolated object, centered, entirely visible, occupying about 70 percent of a square canvas with generous empty margin. No desk, room, scenery, people, pedestal, cables leaving the frame or surrounding objects.
+Palette: midnight navy #142b3e, steel teal #75bdbb, pale blue-gray edge highlights #c5d8dc, phosphor green #9cce6a and bright green #b9e78a. No purple or magenta anywhere on the object.
+Lighting: Controlled green illumination entirely inside the terminal screen and on the bezel. Crisp edges, no external bloom, no cast shadow outside the object, no ambient floor shadow.
+Background: perfectly flat solid pure magenta #ff00ff everywhere outside the object, for chroma-key removal. No gradient, texture, vignette or checkerboard. This magenta background will become transparent; it must not reflect or spill onto the object.
+Style: Refined cinematic low-poly illustration, not photorealistic, not a glossy gaming PC, not an application icon in a square container.
+Constraints: No text, wordmark, numbers, watermark, border, extra emblems or logos. This is one isolated transparent-ready artwork, not a screenshot of a login screen.

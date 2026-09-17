@@ -1,0 +1,18 @@
+{
+  "name": "Another World",
+  "source": {
+    "repo": "https://github.com/simoz/omarchy-another-world-theme",
+    "ref": "629d2a87dbaa04b733240490c8cc1e081bb9efc0",
+    "path": ""
+  },
+  "omarchy_version": "4.0.3-1",
+  "hyprland_version": "v0.56.1",
+  "captured_at": "2026-09-17T12:49:32Z",
+  "resolution": {
+    "width": 1920,
+    "height": 1080,
+    "scale": 2
+  },
+  "background": "00-arrival-4k.png",
+  "note": "User-supplied Try Omarchy captures of the palette before shell.toml and branding were added."
+}

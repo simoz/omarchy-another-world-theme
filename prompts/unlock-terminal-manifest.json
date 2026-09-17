@@ -1,0 +1,34 @@
+{
+  "model": "gpt-image-2",
+  "endpoint": "/v1/images/generations",
+  "size": "1024x1024",
+  "quality": "high",
+  "prompt_file": "prompts/unlock-terminal.txt",
+  "prompt_augmentation": false,
+  "output": "unlock.png",
+  "output_size": [
+    344,
+    300
+  ],
+  "postprocessing": [
+    "remove_chroma_key.py: key #ff00ff, soft-matte and spill-cleanup, default thresholds",
+    "ImageMagick: trim transparent bounds, resize within 600x300, strip metadata"
+  ],
+  "sha256": "84c3ee03b8b2eb0a1a2848c093c9c675c1eaca07126071fc792e5ce71521c598",
+  "preview": {
+    "path": "preview-unlock.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "renderer": "Official omarchy-plymouth-preview (quattro); macOS adaptation changes only asset copying and removes imv invocation",
+    "background": "#0b1826",
+    "text": "#c5d8dc",
+    "upstream": "https://github.com/omacom/omarchy/blob/quattro/bin/omarchy-plymouth-preview",
+    "assets": {
+      "entry.png": "494587957a28b0a69c7e1477a535f7a11d9b1790e9b7db7c77ed5fb231dfce4c",
+      "lock.png": "36be04a15773170b656bdadfa129dc14695e296abed3ac62247e23dbf213d836",
+      "bullet.png": "875ea8297db71415aeef2e03a5ccd67997a13c16f794d4e4929a9d669aaa7327"
+    }
+  }
+}

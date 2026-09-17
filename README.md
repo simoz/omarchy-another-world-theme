@@ -25,7 +25,7 @@ Angular silhouettes, monumental architecture and small figures against vast land
 
 ## Installation
 
-Once this version has been published, run on your Omarchy 4 machine:
+Run on your Omarchy 4 machine:
 
 ```sh
 omarchy theme install https://github.com/simoz/omarchy-another-world-theme
@@ -33,16 +33,57 @@ omarchy theme install https://github.com/simoz/omarchy-another-world-theme
 
 You can also enter the repository URL under **Install > Style > Theme**. To switch back, select your previous theme from Omarchy's theme menu.
 
-<details>
-<summary>Try a local checkout before publication</summary>
+## Unlock
 
-Copy `colors.toml`, `icons.theme` and the `backgrounds/` directory into `~/.config/omarchy/themes/another-world`, then run:
+A phosphor-green laboratory terminal brings Another World to the boot and disk-unlock screen. After installing the updated theme, select **Another World** under **Style > Unlock**.
+
+![Another World boot and disk-unlock preview](preview-unlock.png)
+
+The transparent `unlock.png` and `preview-unlock.png` are included. This is a rendered preview using Omarchy’s Plymouth assets and layout; boot behavior still needs a live check. To regenerate it on Omarchy:
 
 ```sh
-omarchy theme set another-world
+omarchy plymouth preview '#0b1826' '#c5d8dc' unlock.png preview-unlock.png
 ```
 
-</details>
+## About & screensaver
+
+Lester and his alien companion stand together on a ledge in the optional terminal artwork.
+
+![Another World text artwork](docs/branding/about-preview.svg)
+
+[About artwork](about.txt) and [screensaver artwork](screensaver.txt) share the same compact silhouettes and title. Omarchy supplies the screensaver animation. These are personal branding settings; selecting a theme does not install them automatically.
+
+After installing or updating the theme, run on your Omarchy machine:
+
+```sh
+mkdir -p ~/.config/omarchy/branding
+# Keep a backup of existing personal artwork before replacing it.
+for name in about screensaver; do
+  target="$HOME/.config/omarchy/branding/$name.txt"
+  if [ -e "$target" ]; then
+    cp "$target" "$target.backup-$(date +%Y%m%d-%H%M%S)"
+  fi
+  cp "$HOME/.config/omarchy/themes/another-world/$name.txt" "$target"
+done
+```
+
+Close and reopen **About**, or open **System > Screensaver** to preview. Switching themes does not remove this artwork. Restore your backup to recover earlier custom branding; **Style > Screensaver > Restore Default** restores the Omarchy screensaver. These new text assets still need a live check.
+
+## Shell
+
+Opaque midnight-blue surfaces, pale blue-gray text and teal borders carry through menus, notifications, the launcher and authentication dialogs. Selected rows use deep teal; phosphor green marks focused controls and active borders. `shell.toml` leaves font and layout choices to your personal configuration, which takes precedence.
+
+## Desktop previews
+
+Captured on **Omarchy 4.0.3-1**, using Arrival. Click a screenshot to open it at full size. These captures show the palette before the new shell overrides and branding were added; they do not yet validate those additions.
+
+[![Another World with editor, terminal, btop and file manager](docs/screenshots/hero.webp)](docs/screenshots/hero.webp)
+
+| Desktop | Terminal |
+| --- | --- |
+| [![Another World desktop with Arrival](docs/screenshots/desktop.webp)](docs/screenshots/desktop.webp) | [![Another World terminal palette](docs/screenshots/terminal.webp)](docs/screenshots/terminal.webp) |
+| **Omarchy menu** | **Session lock** |
+| [![Another World menu](docs/screenshots/menu.webp)](docs/screenshots/menu.webp) | [![Another World session lock](docs/screenshots/lock.webp)](docs/screenshots/lock.webp) |
 
 ## Palette
 
@@ -68,12 +109,10 @@ Opaque-color contrast: primary text **12.13:1** on the background; primary text 
 
 Uses the [Omarchy 4 central palette format](https://omarchy.org/manual/making-your-own-theme/). Omarchy generates application configurations from `colors.toml`.
 
-Palette syntax, text contrast and image dimensions have been checked locally. The theme still needs a visual check in a live Omarchy session; the images above show the artwork, not desktop screenshots.
+The original palette is shown running on Omarchy 4.0.3-1 in the screenshots above. The new `shell.toml`, boot artwork and terminal branding have been checked locally but still need a live check after installation.
 
 ## Image credits
 
-Artwork created with OpenAI image generation. The five 4K wallpapers are native **3840 × 2160**, with no post-generation upscaling. Gallery previews are reduced copies.
-
-The [social card](social-card.jpg) uses Arrival with the theme title, sized at 1280 × 640 and under 1 MB. Its [complete prompt](prompts/social-card.txt) is included.
+Artwork created with OpenAI image generation. The five 4K wallpapers are native **3840 × 2160**, with no post-generation upscaling. Gallery previews are reduced copies. Desktop screenshots were captured in a running Omarchy session. The unlock emblem was generated with OpenAI and prepared with transparency; its [prompt and processing settings](prompts/README.md#unlock-emblem) are included.
 
 An unofficial fan tribute to Éric Chahi and Delphine Software. Another World and its characters belong to their respective rights holders. This project is not affiliated with or endorsed by the original creators.

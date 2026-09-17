@@ -2,3 +2,6 @@
 
 # Local API output copies; selected wallpapers are kept in backgrounds/.
 /output/
+
+# Downloaded upstream assets and local render intermediates.
+/tmp/

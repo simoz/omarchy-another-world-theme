@@ -1,0 +1,119 @@
+# Another World — opaque midnight surfaces and restrained phosphor-green focus.
+# Personal layout and font settings remain machine-level.
+[bar]
+background = "#142b3e"
+background-alpha = 1.0
+text = "#c5d8dc"
+active = "#9cce6a"
+
+[hyprland]
+active-border = "#9cce6a"
+active-border-foreground = "#c5d8dc"
+
+[controls]
+normal-color = "#c5d8dc"
+normal-fill-alpha = 0.04
+normal-border = "#c5d8dc"
+normal-border-width = 1
+normal-border-alpha = 0.4
+hover-cursor-color = "#c5d8dc"
+hover-cursor-fill-alpha = 0.08
+hover-cursor-border = "#c5d8dc"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.25
+focus-color = "#c5d8dc"
+focus-fill-alpha = 0.08
+focus-border = "#9cce6a"
+focus-border-width = 1
+focus-border-alpha = 1.0
+selected-color = "#c5d8dc"
+selected-fill-alpha = 0.08
+selected-border = "#c5d8dc"
+selected-border-width = 0
+selected-border-alpha = 1.0
+pressed-fill-alpha = 0.10
+selection-fill-alpha = 0.10
+
+[popups]
+background = "#142b3e"
+background-alpha = 1.0
+text = "#c5d8dc"
+border = "#75bdbb"
+border-alpha = 1.0
+
+[tooltip]
+background = "#142b3e"
+background-alpha = 1.0
+text = "#c5d8dc"
+border = "#75bdbb"
+border-alpha = 1.0
+
+[notifications]
+background = "#142b3e"
+background-alpha = 1.0
+text = "#c5d8dc"
+border = "#75bdbb"
+border-alpha = 1.0
+countdown = "#75bdbb"
+
+[launcher]
+background = "#142b3e"
+background-alpha = 1.0
+text = "#c5d8dc"
+border = "#75bdbb"
+border-alpha = 1.0
+scrim = "#0b1826"
+scrim-alpha = 0.5
+selected-background = "#23465a"
+selected-background-alpha = 1.0
+selected-text = "#c5d8dc"
+selected-border = "#9cce6a"
+selected-border-alpha = 1.0
+
+[menu]
+background = "#142b3e"
+background-alpha = 1.0
+text = "#c5d8dc"
+border = "#75bdbb"
+border-alpha = 1.0
+scrim = "#0b1826"
+scrim-alpha = 0.5
+selected-background = "#23465a"
+selected-background-alpha = 1.0
+selected-text = "#c5d8dc"
+selected-border = "#9cce6a"
+selected-border-alpha = 1.0
+
+[polkit]
+background = "#142b3e"
+background-alpha = 1.0
+text = "#c5d8dc"
+text-error = "#df8074"
+border = "#75bdbb"
+border-error = "#df8074"
+border-alpha = 1.0
+scrim = "#0b1826"
+scrim-alpha = 0.5
+accent = "#9cce6a"
+
+[lock]
+background = "#142b3e"
+background-alpha = 1.0
+text = "#c5d8dc"
+placeholder = "#829da9"
+text-error = "#df8074"
+border = "#75bdbb"
+border-active = "#9cce6a"
+border-error = "#df8074"
+border-alpha = 1.0
+selection = "#23465a"
+selection-alpha = 1.0
+
+[image-picker]
+scrim = "#0b1826"
+scrim-alpha = 0.5
+text = "#c5d8dc"
+selected-border = "#9cce6a"
+selected-border-alpha = 1.0
+unselected-border = "#c5d8dc"
+unselected-border-alpha = 0.28

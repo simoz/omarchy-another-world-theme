@@ -1,0 +1,14 @@
+{
+  "opaque_text_contrast": {
+    "bar": 9.85,
+    "popups": 9.85,
+    "tooltip": 9.85,
+    "notifications": 9.85,
+    "launcher": 9.85,
+    "menu": 9.85,
+    "polkit": 9.85,
+    "lock": 9.85
+  },
+  "selection": 6.79,
+  "live_validation": false
+}

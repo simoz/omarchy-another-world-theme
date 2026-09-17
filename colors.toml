@@ -1,0 +1,32 @@
+# Another World — Omarchy 4 / Quattro
+# Midnight laboratory blues, alien teal and phosphor-green terminal light.
+mode = "dark"
+
+accent = "#9cce6a"
+selection = "#23465a"
+muted = "#486474"
+
+background = "#0b1826"
+dark_background = "#07111d"
+darker_background = "#040b14"
+lighter_background = "#142b3e"
+
+foreground = "#c5d8dc"
+dark_foreground = "#829da9"
+light_foreground = "#d7e6e7"
+bright_foreground = "#edf4ef"
+
+red = "#df8074"
+yellow = "#d9bd7c"
+orange = "#d9996a"
+green = "#9cce6a"
+cyan = "#75bdbb"
+blue = "#7baacb"
+magenta = "#ad9cc7"
+brown = "#936e58"
+bright_red = "#f29a88"
+bright_yellow = "#ead299"
+bright_green = "#b9e78a"
+bright_cyan = "#99d9cf"
+bright_blue = "#9ec8e5"
+bright_magenta = "#c6b7de"

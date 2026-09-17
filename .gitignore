@@ -1,1 +1,4 @@
 .DS_Store
+
+# Local API output copies; selected wallpapers are kept in backgrounds/.
+/output/

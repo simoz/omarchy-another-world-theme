@@ -1,0 +1,50 @@
+{
+  "model": "gpt-image-2",
+  "quality": "high",
+  "requested_size": "3840x2160",
+  "endpoint": "/v1/images/generations",
+  "generation_date": "2026-09-17",
+  "prompt_augmentation": false,
+  "images": [
+    {
+      "path": "backgrounds/alien-landscape-4k.png",
+      "prompt_file": "prompts/alien-landscape-4k.txt",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 8032345,
+      "sha256": "c90f7fb1176db098d4ae01bcfca30ef94fe3af0318da75579a2557bffcf3bace"
+    },
+    {
+      "path": "backgrounds/00-arrival-4k.png",
+      "prompt_file": "prompts/arrival-4k.txt",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 10627625,
+      "sha256": "70d91c611e271bc64104d330d2aa6d4e645b693faa036105282f053e7b0ac876"
+    },
+    {
+      "path": "backgrounds/underground-escape-4k.png",
+      "prompt_file": "prompts/underground-escape-4k.txt",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 9254427,
+      "sha256": "976dcf94bfe8ac165d870a0ba9aa0524848ed80bbd06da80a46d10453e76c46a"
+    },
+    {
+      "path": "backgrounds/alien-city-4k.png",
+      "prompt_file": "prompts/alien-city-4k.txt",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 7873942,
+      "sha256": "3687d47dea59a679cbba681dda29dacb7eb238bf0268852ef4379b6b255d3969"
+    },
+    {
+      "path": "backgrounds/laboratory-4k.png",
+      "prompt_file": "prompts/laboratory-4k.txt",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 8998769,
+      "sha256": "682c29b048d0832788a18823a4943525bd3abfdcea09447d1d2db46faf954eeb"
+    }
+  ]
+}

@@ -1,66 +1,79 @@
-# Another World — Omarchy 4 Theme
+# Another World · Omarchy 4
 
-A cinematic theme for Omarchy 4, paying tribute to **Another World**, the landmark 1991 Amiga game created by **Éric Chahi** and published by **Delphine Software**.
+A cinematic theme for Omarchy inspired by Another World: remote alien landscapes, midnight laboratories and the green glow of a terminal.
 
-![Arrival at the laboratory — 4K](preview.png)
+[![Arrival at the laboratory — Another World wallpaper](docs/previews/hero.jpg)](backgrounds/00-arrival-4k.png)
 
-## From the Amiga to another desktop
+## Backgrounds
 
-Known as *Out of This World* in North America, Another World follows scientist Lester Knight Chaykin after a laboratory experiment transports him to a mysterious alien world. Its bold polygonal artwork, restrained palette and cinematic storytelling made an unforgettable impression on the Amiga era.
+Five wallpapers, all native 3840 × 2160. Click a preview to open the full-resolution PNG.
 
-This project reimagines that atmosphere for [Omarchy](https://omarchy.org/): deep laboratory blues, muted alien teals, dark silhouettes and the vivid green glow of Lester’s terminal. The aim is to preserve the simplicity and sense of isolation of the original while introducing modern lighting and depth.
+| | | |
+| --- | --- | --- |
+| [![Arrival](docs/previews/00-arrival-4k.jpg)](backgrounds/00-arrival-4k.png)<br>Arrival | [![The Laboratory](docs/previews/laboratory-4k.jpg)](backgrounds/laboratory-4k.png)<br>The Laboratory | [![Alien Landscape](docs/previews/alien-landscape-4k.jpg)](backgrounds/alien-landscape-4k.png)<br>Alien Landscape |
+| [![Underground Escape](docs/previews/underground-escape-4k.jpg)](backgrounds/underground-escape-4k.png)<br>Underground Escape | [![Alien City at Twilight](docs/previews/alien-city-4k.jpg)](backgrounds/alien-city-4k.png)<br>Alien City at Twilight | |
 
-## Theme
+Arrival is the theme's main artwork and the first wallpaper in its sorted collection. Earlier versions remain available in [backgrounds/](backgrounds/).
 
-The theme targets **Omarchy 4 / Quattro**. Its native `colors.toml` palette supplies the colors used by Omarchy's application templates, with matching Prussian-green file manager icons.
+[Complete scene prompts and generation settings](prompts/README.md) are included.
 
-| Role | Color |
-| --- | --- |
-| Background — midnight laboratory | `#0b1826` |
-| Foreground — pale blue-gray | `#c5d8dc` |
-| Accent — phosphor green | `#9cce6a` |
-| Cyan — alien water | `#75bdbb` |
-| Blue — laboratory light | `#7baacb` |
-| Orange — twilight | `#d9996a` |
+## Inspiration
+
+Released in 1991, **Another World** was created by **Éric Chahi** and published by **Delphine Software**. Known as *Out of This World* in North America, it follows scientist Lester Knight Chaykin after an experiment transports him to an unfamiliar planet.
+
+Angular silhouettes, monumental architecture and small figures against vast landscapes recall its cinematic Amiga artwork. Midnight blues and alien teals carry through the collection, with phosphor green drawn from Lester's laboratory terminal. The interface palette stays consistent as wallpapers change.
 
 ## Installation
 
-Once this version has been pushed to GitHub, run on Omarchy 4:
+Once this version has been published, run on your Omarchy 4 machine:
 
 ```sh
-omarchy theme install https://github.com/simoz/omarchy-another-world-theme.git
+omarchy theme install https://github.com/simoz/omarchy-another-world-theme
 ```
 
-You can also enter the repository URL under **Install > Style > Theme** in the Omarchy menu. Installation applies the theme.
+You can also enter the repository URL under **Install > Style > Theme**. To switch back, select your previous theme from Omarchy's theme menu.
 
-To try a local checkout before publication, copy `colors.toml`, `icons.theme` and the `backgrounds` directory into `~/.config/omarchy/themes/another-world`, then select **Another World** in the theme menu or run:
+<details>
+<summary>Try a local checkout before publication</summary>
+
+Copy `colors.toml`, `icons.theme` and the `backgrounds/` directory into `~/.config/omarchy/themes/another-world`, then run:
 
 ```sh
 omarchy theme set another-world
 ```
 
-The palette follows the [official theme format](https://omarchy.org/manual/making-your-own-theme/). Desktop appearance still needs a live check on Omarchy; development and file validation were performed on macOS.
+</details>
 
-## Wallpapers
+## Palette
 
-The wallpapers are AI-generated reinterpretations inspired by the game, rather than original game assets.
+![Another World palette](docs/palette.svg)
 
-Complete prompts and API generation parameters for the 4K collection are preserved in [prompts/](prompts/README.md).
+| Role | Color |
+| --- | --- |
+| Midnight background | `#0b1826` |
+| Blue surfaces | `#142b3e` |
+| Pale blue-gray text | `#c5d8dc` |
+| Phosphor-green accent | `#9cce6a` |
+| Deep teal selection | `#23465a` |
+| Secondary text | `#829da9` |
+| Alien teal | `#75bdbb` |
+| Laboratory blue | `#7baacb` |
+| Twilight orange | `#d9996a` |
 
-| Scene | 4K wallpaper | Complete prompt |
-| --- | --- | --- |
-| Alien landscape | [View](backgrounds/alien-landscape-4k.png) | [Prompt](prompts/alien-landscape-4k.txt) |
-| Arrival at the laboratory | [View](backgrounds/00-arrival-4k.png) | [Prompt](prompts/arrival-4k.txt) |
-| Underground escape | [View](backgrounds/underground-escape-4k.png) | [Prompt](prompts/underground-escape-4k.txt) |
-| Alien city at twilight | [View](backgrounds/alien-city-4k.png) | [Prompt](prompts/alien-city-4k.txt) |
-| Lester at the laboratory console | [View](backgrounds/laboratory-4k.png) | [Prompt](prompts/laboratory-4k.txt) |
+`colors.toml` contains the theme palette, including bright terminal variants. `icons.theme` selects `Yaru-prussiangreen`.
 
-All five new wallpapers are native **3840 × 2160 PNGs**, generated through the OpenAI Images API with `gpt-image-2` at high quality. No local upscaling was used.
+Opaque-color contrast: primary text **12.13:1** on the background; primary text **6.79:1** on selection. Transparency and application customizations may change these results.
 
-**Arrival 4K** is the theme cover and preview. Its `00-` filename places it first in Omarchy’s sorted wallpaper list on initial application; an existing wallpaper selection can affect subsequent switches. The earlier wallpapers remain available alongside the `-4k` versions.
+## Compatibility
 
-## Credits and inspiration
+Uses the [Omarchy 4 central palette format](https://omarchy.org/manual/making-your-own-theme/). Omarchy generates application configurations from `colors.toml`.
+
+Palette syntax, text contrast and image dimensions have been checked locally. The theme still needs a visual check in a live Omarchy session; the images above show the artwork, not desktop screenshots.
+
+## Image credits
+
+Artwork created with OpenAI image generation. The five 4K wallpapers are native **3840 × 2160**, with no post-generation upscaling. Gallery previews are reduced copies.
+
+The [social card](social-card.jpg) uses Arrival with the theme title, sized at 1200 × 630 and under 1 MB. Its [complete prompt](prompts/social-card.txt) is included.
 
 An unofficial fan tribute to Éric Chahi and Delphine Software. Another World and its characters belong to their respective rights holders. This project is not affiliated with or endorsed by the original creators.
-
-Historical background: [Another World](https://en.wikipedia.org/wiki/Another_World_%28video_game%29).

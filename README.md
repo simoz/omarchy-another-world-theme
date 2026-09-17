@@ -13,8 +13,6 @@ Five wallpapers, all native 3840 × 2160. Click a preview to open the full-resol
 | [![Arrival](docs/previews/00-arrival-4k.jpg)](backgrounds/00-arrival-4k.png)<br>Arrival | [![The Laboratory](docs/previews/laboratory-4k.jpg)](backgrounds/laboratory-4k.png)<br>The Laboratory | [![Alien Landscape](docs/previews/alien-landscape-4k.jpg)](backgrounds/alien-landscape-4k.png)<br>Alien Landscape |
 | [![Underground Escape](docs/previews/underground-escape-4k.jpg)](backgrounds/underground-escape-4k.png)<br>Underground Escape | [![Alien City at Twilight](docs/previews/alien-city-4k.jpg)](backgrounds/alien-city-4k.png)<br>Alien City at Twilight | |
 
-Arrival is the theme's main artwork and the first wallpaper in its sorted collection. The installed collection contains only these five 4K wallpapers.
-
 [Complete scene prompts and generation settings](prompts/README.md) are included.
 
 ## Inspiration

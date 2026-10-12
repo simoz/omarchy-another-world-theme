@@ -6,7 +6,7 @@ A cinematic theme for Omarchy inspired by Another World: remote alien landscapes
 
 ## Backgrounds
 
-Five wallpapers, all native 3840 × 2160. Click a preview to open the full-resolution PNG.
+Five wallpapers, all native 3840 × 2160. Click a preview to open the full-resolution WebP.
 
 | | | |
 | --- | --- | --- |
@@ -114,3 +114,7 @@ The original palette is shown running on Omarchy 4.0.3-1 in the screenshots abov
 Artwork created with OpenAI image generation. The five 4K wallpapers are native **3840 × 2160**, with no post-generation upscaling. Gallery previews are reduced copies. Desktop screenshots were captured in a running Omarchy session. The unlock emblem was generated with OpenAI and prepared with transparency; its [prompt and processing settings](prompts/README.md#unlock-emblem) are included.
 
 An unofficial fan tribute to Éric Chahi and Delphine Software. Another World and its characters belong to their respective rights holders. This project is not affiliated with or endorsed by the original creators.
+
+## License
+
+See the [MIT License](LICENSE).

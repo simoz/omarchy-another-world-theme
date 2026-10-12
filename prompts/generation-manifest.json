@@ -7,44 +7,45 @@
   "prompt_augmentation": false,
   "images": [
     {
-      "path": "backgrounds/alien-landscape-4k.png",
+      "path": "backgrounds/alien-landscape-4k.webp",
       "prompt_file": "prompts/alien-landscape-4k.txt",
       "width": 3840,
       "height": 2160,
-      "bytes": 8032345,
-      "sha256": "c90f7fb1176db098d4ae01bcfca30ef94fe3af0318da75579a2557bffcf3bace"
+      "bytes": 157476,
+      "sha256": "4ff2abe21521c96ac76b2ac0a0b5419c9109124c56cfa800f3c7f3ea09daf6d1"
     },
     {
-      "path": "backgrounds/00-arrival-4k.png",
+      "path": "backgrounds/00-arrival-4k.webp",
       "prompt_file": "prompts/arrival-4k.txt",
       "width": 3840,
       "height": 2160,
-      "bytes": 10627625,
-      "sha256": "70d91c611e271bc64104d330d2aa6d4e645b693faa036105282f053e7b0ac876"
+      "bytes": 385244,
+      "sha256": "9079f6bc737549c4b1b4b06c2f95ac0fb7559b4ae3a36b54e6fb904d312deb29"
     },
     {
-      "path": "backgrounds/underground-escape-4k.png",
+      "path": "backgrounds/underground-escape-4k.webp",
       "prompt_file": "prompts/underground-escape-4k.txt",
       "width": 3840,
       "height": 2160,
-      "bytes": 9254427,
-      "sha256": "976dcf94bfe8ac165d870a0ba9aa0524848ed80bbd06da80a46d10453e76c46a"
+      "bytes": 165958,
+      "sha256": "25e0331e6d6110e4b58d7c8fc15fca87127809e5bc4bd359670f950af0e23d4d"
     },
     {
-      "path": "backgrounds/alien-city-4k.png",
+      "path": "backgrounds/alien-city-4k.webp",
       "prompt_file": "prompts/alien-city-4k.txt",
       "width": 3840,
       "height": 2160,
-      "bytes": 7873942,
-      "sha256": "3687d47dea59a679cbba681dda29dacb7eb238bf0268852ef4379b6b255d3969"
+      "bytes": 172796,
+      "sha256": "9a8ee2cf43f2ba91932f3b13aeeef5af69ec36994f4e58a8ea6d9697bd80f05e"
     },
     {
-      "path": "backgrounds/laboratory-4k.png",
+      "path": "backgrounds/laboratory-4k.webp",
       "prompt_file": "prompts/laboratory-4k.txt",
       "width": 3840,
       "height": 2160,
-      "bytes": 8998769,
-      "sha256": "682c29b048d0832788a18823a4943525bd3abfdcea09447d1d2db46faf954eeb"
+      "bytes": 225598,
+      "sha256": "d810fc855583ec5b7c48993de9c7190495e59b6eb8a4f33ecdd38057b9c1f916"
     }
-  ]
+  ],
+  "postprocessing": "ImageMagick: magick input.png -strip -resize '3840>' -quality 82 output.webp"
 }

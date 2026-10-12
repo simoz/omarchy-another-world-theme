@@ -2,7 +2,7 @@
 
 A cinematic theme for Omarchy inspired by Another World: remote alien landscapes, midnight laboratories and the green glow of a terminal.
 
-[![Arrival at the laboratory — Another World wallpaper](docs/previews/hero.jpg)](backgrounds/00-arrival-4k.png)
+[![Arrival at the laboratory — Another World wallpaper](docs/previews/hero.jpg)](backgrounds/00-arrival-4k.webp)
 
 ## Backgrounds
 
@@ -10,8 +10,8 @@ Five wallpapers, all native 3840 × 2160. Click a preview to open the full-resol
 
 | | | |
 | --- | --- | --- |
-| [![Arrival](docs/previews/00-arrival-4k.jpg)](backgrounds/00-arrival-4k.png)<br>Arrival | [![The Laboratory](docs/previews/laboratory-4k.jpg)](backgrounds/laboratory-4k.png)<br>The Laboratory | [![Alien Landscape](docs/previews/alien-landscape-4k.jpg)](backgrounds/alien-landscape-4k.png)<br>Alien Landscape |
-| [![Underground Escape](docs/previews/underground-escape-4k.jpg)](backgrounds/underground-escape-4k.png)<br>Underground Escape | [![Alien City at Twilight](docs/previews/alien-city-4k.jpg)](backgrounds/alien-city-4k.png)<br>Alien City at Twilight | |
+| [![Arrival](docs/previews/00-arrival-4k.jpg)](backgrounds/00-arrival-4k.webp)<br>Arrival | [![The Laboratory](docs/previews/laboratory-4k.jpg)](backgrounds/laboratory-4k.webp)<br>The Laboratory | [![Alien Landscape](docs/previews/alien-landscape-4k.jpg)](backgrounds/alien-landscape-4k.webp)<br>Alien Landscape |
+| [![Underground Escape](docs/previews/underground-escape-4k.jpg)](backgrounds/underground-escape-4k.webp)<br>Underground Escape | [![Alien City at Twilight](docs/previews/alien-city-4k.jpg)](backgrounds/alien-city-4k.webp)<br>Alien City at Twilight | |
 
 [Complete scene prompts and generation settings](prompts/README.md) are included.
 

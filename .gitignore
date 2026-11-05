@@ -5,3 +5,6 @@
 
 # Downloaded upstream assets and local render intermediates.
 /tmp/
+
+# Local maintenance tools; not distributed with the theme.
+/scripts/
